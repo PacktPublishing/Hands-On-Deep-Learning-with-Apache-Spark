@@ -87,7 +87,6 @@ public class Vgg16WebApp {
 	        return buildFoundationHeader() + "<h4> '" + predictions + "' </h4>" +
 	          "Would you like to try with another image?" +
 	          form;
-	        //return "<h1>Your image is: '" + tempFile.getName(1).toString() + "' </h1>";
 
 	      });
 	    
@@ -114,7 +113,5 @@ public class Vgg16WebApp {
 	public static void main(String[] args) throws Exception {
 		Vgg16WebApp webApp = new Vgg16WebApp();
 		webApp.loadModel();
-		
-		//get("/hello", (req, res) -> "Hello VGG16");
 	}
 }
