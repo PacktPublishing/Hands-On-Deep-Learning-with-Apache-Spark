@@ -43,8 +43,8 @@ object KerasImporter {
     val predictions = imagNetLabels.decodePredictions(output(0))
     println(predictions)
     
-    //val modelSaveLocation = new File("Vgg-16.zip")
-    //ModelSerializer.writeModel(model, modelSaveLocation, true)
+    val modelSaveLocation = new File("Vgg-16.zip")
+    ModelSerializer.writeModel(model, modelSaveLocation, true)
     
     println("--- Application end.---")
   }
