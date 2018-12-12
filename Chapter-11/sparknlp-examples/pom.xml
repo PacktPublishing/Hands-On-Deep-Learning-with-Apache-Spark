@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sparknlpbench</groupId>
+  <artifactId>org.googlielmo.sparknlpbench</artifactId>
+  <version>1.0</version>
+  
+  <properties>
+  	<spark.version>2.2.1</spark.version>
+  	<sparknlp.version>1.6.3</sparknlp.version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+	  <groupId>org.apache.spark</groupId>
+	  <artifactId>spark-sql_2.11</artifactId>
+	  <version>${spark.version}</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.apache.spark</groupId>
+	  <artifactId>spark-mllib_2.11</artifactId>
+	  <version>${spark.version}</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>com.johnsnowlabs.nlp</groupId>
+	  <artifactId>spark-nlp_2.11</artifactId>
+	  <version>${sparknlp.version}</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sparkcorenlpbench</groupId>
+  <artifactId>org.googlielmo.sparkcorenlpbench</artifactId>
+  <version>1.0</version>
+  
+  <properties>
+  	<spark.version>2.2.1</spark.version>
+  	<corenlp.version>3.8.0</corenlp.version>
+  </properties>
+  
+  <dependencies>
+<!--   	<dependency> -->
+<!-- 	  <groupId>org.apache.spark</groupId> -->
+<!-- 	  <artifactId>spark-core_2.11</artifactId> -->
+<!-- 	  <version>${spark.version}</version> -->
+<!-- 	</dependency> -->
+  	<dependency>
+	  <groupId>org.apache.spark</groupId>
+	  <artifactId>spark-sql_2.11</artifactId>
+	  <version>${spark.version}</version>
+	</dependency>
+	
+	<dependency>
+	  <groupId>edu.stanford.nlp</groupId>
+	  <artifactId>stanford-corenlp</artifactId>
+	  <version>${corenlp.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>edu.stanford.nlp</groupId>
+	    <artifactId>stanford-corenlp</artifactId>
+	    <version>${corenlp.version}</version>
+    	<classifier>models</classifier>
+	</dependency>
+  </dependencies>
+  
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
