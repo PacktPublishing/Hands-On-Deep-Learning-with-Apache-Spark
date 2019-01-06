@@ -18,4 +18,7 @@ This is the list of the repositories containing the examples associated to the b
 * [Chapter 13](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-13/Chapter-13.md) - "Convolution"  
 * [Chapter 14](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-14/Chapter-14.md) - "Image classification"  
 * [Chapter 15](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-15/Chapter-15.md) - "What is next for Deep Learning?"  
+  
+## Notes about building the Scala and Java examples  
+All of the Scala and Java examples in this repository require Scala 11.x and Java 8. [Apache Maven](https://maven.apache.org/) is required in order to build and run them.
 
