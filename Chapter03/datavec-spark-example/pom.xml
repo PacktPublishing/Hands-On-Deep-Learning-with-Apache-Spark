@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.googlielmo</groupId>
+  <artifactId>datavecspark</artifactId>
+  <version>1.0</version>
+  
+  <repositories>
+    <repository>
+        <id>snapshots-repo</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>  <!-- Optional, update daily -->
+        </snapshots>
+    </repository>
+  </repositories>
+
+  <properties>
+  	<scala.version>2.11.8</scala.version>
+  	<spark.version>2.2.1</spark.version>
+  	<dl4j.version>0.9.1</dl4j.version>
+  	<datavec.spark.version>0.9.1_spark_2</datavec.spark.version>
+  </properties>
+      
+  <dependencies>
+    <dependency>
+        <groupId>org.scala-lang</groupId>
+        <artifactId>scala-library</artifactId>
+       <version>${scala.version}</version>
+    </dependency>
+    
+    <dependency>
+	    <groupId>org.apache.spark</groupId>
+	    <artifactId>spark-core_2.11</artifactId>
+	    <version>${spark.version}</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.datavec</groupId>
+	    <artifactId>datavec-api</artifactId>
+	    <version>${dl4j.version}</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.datavec</groupId>
+	    <artifactId>datavec-spark_2.11</artifactId>
+	    <version>${datavec.spark.version}</version>
+	</dependency>
+
+   </dependencies>
+      
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <testSourceDirectory>src/test/scala</testSourceDirectory>
+    <plugins>
+      	<plugin>
+          <groupId>net.alchim31.maven</groupId>
+          <artifactId>scala-maven-plugin</artifactId>
+          <version>3.3.2</version>
+  		</plugin>
+    </plugins>
+  </build>
+</project>

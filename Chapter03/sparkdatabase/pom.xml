@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.googlielmo</groupId>
+  <artifactId>sparkdatabase</artifactId>
+  <version>1.0</version>
+  
+  <!-- https://docs.databricks.com/spark/latest/data-sources/sql-databases.html  -->
+  <properties>
+  	<scala.version>2.11.8</scala.version>
+  	<spark.version>2.2.1</spark.version>
+  	<mysql.jdbc.version>5.1.46</mysql.jdbc.version>
+  	<mongo.spark.connector.version>2.2.2</mongo.spark.connector.version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+        <groupId>org.scala-lang</groupId>
+        <artifactId>scala-library</artifactId>
+       <version>${scala.version}</version>
+    </dependency>
+    
+    <dependency>
+	    <groupId>org.apache.spark</groupId>
+	    <artifactId>spark-core_2.11</artifactId>
+	    <version>${spark.version}</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.spark</groupId>
+	    <artifactId>spark-sql_2.11</artifactId>
+	    <version>${spark.version}</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>${mysql.jdbc.version}</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.mongodb.spark</groupId>
+	    <artifactId>mongo-spark-connector_2.11</artifactId>
+	    <version>${mongo.spark.connector.version}</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+    <sourceDirectory>src/main/scala</sourceDirectory>
+    <plugins>
+      	<plugin>
+          <groupId>net.alchim31.maven</groupId>
+          <artifactId>scala-maven-plugin</artifactId>
+          <version>3.3.2</version>
+  		</plugin>
+    </plugins>
+  </build>
+</project>
