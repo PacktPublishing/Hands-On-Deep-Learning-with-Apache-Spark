@@ -1,24 +1,97 @@
-# Hands-On-Deep-Learning-with-Apache-Spark
-Hands-On Deep Learning with Apache Spark, Published by Packt  
-  
-## Chapters List  
-This is the list of the repositories containing the examples associated to the book. Please read each chapter's related markdown file for more details about them.  
-* [Chapter 1](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-01/Chapter-01.md) - "The Apache Spark eco-system"  
-* [Chapter 2](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-02/Chapter-02.md) - "Deep Learning basics"  
-* [Chapter 3](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-03/Chapter-03.md) - "ETL"  
-* [Chapter 4](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-04/Chapter-04.md) - "Streaming"  
-* [Chapter 5](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-05/Chapter-05.md) - "Convolutional Neural Networks"  
-* [Chapter 6](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-06/Chapter-06.md) - "Recurrent Neural Networks"  
-* [Chapter 7](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-07/Chapter-07.md) - "Training neural networks with Spark"  
-* [Chapter 8](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-08/Chapter-08.md) - "Monitoring and debugging neural network training"  
-* [Chapter 9](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-09/Chapter-09.md) - "Interpreting neural network output"  
-* [Chapter 10](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-10/Chapter-10.md) - "Deploying on a distributed system"  
-* [Chapter 11](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-11/Chapter-11.md) - "NLP basics"  
-* [Chapter 12](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-12/Chapter-12.md) - "Textual Analysis and Deep Learning"  
-* [Chapter 13](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-13/Chapter-13.md) - "Convolution"  
-* [Chapter 14](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-14/Chapter-14.md) - "Image classification"  
-* [Chapter 15](https://github.com/PacktPublishing/Hands-On-Deep-Learning-with-Apache-Spark/blob/master/Chapter-15/Chapter-15.md) - "What is next for Deep Learning?"  
-  
-## Notes about building the Scala and Java examples  
-All of the Scala and Java examples in this repository require Scala 11.x and Java 8. [Apache Maven](https://maven.apache.org/) is required in order to build and run them.
+# 	Hands-On Deep Learning with Apache Spark
+
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/hands-deep-learning-apache-spark?utm_source=github&utm_medium=repository&utm_campaign=9781788994613"><img src="" alt="" height="256px" align="right"></a>
+
+This is the code repository for [](https://www.packtpub.com/big-data-and-business-intelligence/hands-deep-learning-apache-spark?utm_source=github&utm_medium=repository&utm_campaign=9781788994613), published by Packt.
+
+**Build and deploy distributed deep learning applications on Apache Spark**
+
+## Deep Learning is a subset of Machine Learning where data sets with several layers of complexity can be processed. This book teaches you the different techniques using which deep learning solutions can be implemented at scale, on Apache Spark. This will help you gain experience of implementing your deep learning models in many real-world use cases.
+
+This book covers the following exciting features:
+* Understand the basics of deep learning
+* Set up Apache Spark for deep learning
+* Understand the principles of distribution modeling and different types of neural networks
+* Obtain an understanding of deep learning algorithms
+* Discover textual analysis and deep learning with Spark
+
+
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1-788-83748-7) today!
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
+
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+```
+class Musician:
+def __init__(self, name):
+self.name = name
+def __str__(self):
+   return f'the musician {self.name}'
+def play(self):
+  return 'plays music'
+```
+
+**Following is what you need for this book:**
+If you are a Scala developer, data scientist, or data analyst who wants to learn how to use Spark for implementing efficient deep learning models, Hands-On Deep Learning with Apache Spark is for you. Knowledge of the core machine learning concepts and some exposure to Spark will be helpful.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-).
+### Software and Hardware List
+| Chapter | Software required | OS required |
+| -------- | ------------------------------------ | ----------------------------------- |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+|  |  | Windows, Mac OS X, and Linux (Any) |
+
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
+
+### Related products
+*  [[Packt]](https://www.packtpub.com/application-development/learn-python-programming-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-788-99666-6)
+
+*  [[Packt]](https://www.packtpub.com/application-development/clean-code-python?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-788-83583-2)
+
+*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
+
+*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
+
+## Get to Know the Author
+**Guglielmo Iozzia**
+Guglielmo Iozzia is currently a big data delivery manager at Optum in Dublin. He completed his master's degree in biomedical engineering at the University of Bologna. After graduation, he joined a start-up IT company in Bologna that had implemented a new system to manage online payments. There, he worked on complex Java projects for different customers in different areas. He has also worked at the IT department of FAO, an agency of the United Nations. In 2013, he had the chance to join IBM in Dublin. There, he improved his DevOps skills, working mostly on cloud-based applications. He is a golden member, writes articles at DZone, and maintains a personal blog to share his findings and thoughts about various tech topics.
+
+
+
+
+****
+0
+
+****
+0
+
+****
+0
+
+## Other books by the authors
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
+
 
