@@ -6,7 +6,8 @@ This is the code repository for [](https://www.packtpub.com/big-data-and-busines
 
 **Build and deploy distributed deep learning applications on Apache Spark**
 
-## Deep Learning is a subset of Machine Learning where data sets with several layers of complexity can be processed. This book teaches you the different techniques using which deep learning solutions can be implemented at scale, on Apache Spark. This will help you gain experience of implementing your deep learning models in many real-world use cases.
+## What is this book about?
+Deep Learning is a subset of Machine Learning where data sets with several layers of complexity can be processed. This book teaches you the different techniques using which deep learning solutions can be implemented at scale, on Apache Spark. This will help you gain experience of implementing your deep learning models in many real-world use cases.
 
 This book covers the following exciting features:
 * Understand the basics of deep learning
