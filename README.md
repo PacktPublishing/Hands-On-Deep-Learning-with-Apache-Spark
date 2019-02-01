@@ -41,18 +41,9 @@ If you are a Scala developer, data scientist, or data analyst who wants to learn
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-).
 ### Software and Hardware List
-| Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
-|  |  | Windows, Mac OS X, and Linux (Any) |
+| Chapter  | Software required                 | OS required                         |
+| -------- | ----------------------------------| ----------------------------------- |
+|  1-15    | Apache Spark, Scala, Python, Java | Windows, Mac OS X, and Linux (Any)  |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
@@ -67,7 +58,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Guglielmo Iozzia**
-Guglielmo Iozzia is currently a big data delivery manager at Optum in Dublin. He completed his master's degree in biomedical engineering at the University of Bologna. After graduation, he joined a start-up IT company in Bologna that had implemented a new system to manage online payments. There, he worked on complex Java projects for different customers in different areas. He has also worked at the IT department of FAO, an agency of the United Nations. In 2013, he had the chance to join IBM in Dublin. There, he improved his DevOps skills, working mostly on cloud-based applications. He is a golden member, writes articles at DZone, and maintains a personal blog to share his findings and thoughts about various tech topics.
+is currently a big data delivery manager at Optum in Dublin. He completed his master's degree in biomedical engineering at the University of Bologna. After graduation, he joined a start-up IT company in Bologna that had implemented a new system to manage online payments. There, he worked on complex Java projects for different customers in different areas. He has also worked at the IT department of FAO, an agency of the United Nations. In 2013, he had the chance to join IBM in Dublin. There, he improved his DevOps skills, working mostly on cloud-based applications. He is a golden member, writes articles at DZone, and maintains a personal blog to share his findings and thoughts about various tech topics.
 
 
 
