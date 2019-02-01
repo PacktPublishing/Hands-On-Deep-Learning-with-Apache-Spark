@@ -48,13 +48,11 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
 ### Related products
-*  [[Packt]](https://www.packtpub.com/application-development/learn-python-programming-second-edition?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-788-99666-6)
+*  [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/apache-spark-deep-learning-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781788474221) [[Amazon]](https://www.amazon.com/dp/1-788-99666-6)
 
-*  [[Packt]](https://www.packtpub.com/application-development/clean-code-python?utm_source=github&utm_medium=repository&utm_campaign=) [[Amazon]](https://www.amazon.com/dp/1-788-83583-2)
+*  [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/machine-learning-apache-spark-quick-start-guide?utm_source=github&utm_medium=repository&utm_campaign=9781789346565) [[Amazon]](https://www.amazon.com/dp/1-788-83583-2)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Guglielmo Iozzia**
@@ -63,25 +61,6 @@ is currently a big data delivery manager at Optum in Dublin. He completed his ma
 
 
 
-****
-0
-
-****
-0
-
-****
-0
-
-## Other books by the authors
-[]()
-
-[]()
-
-[]()
-
-[]()
-
-[]()
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
