@@ -39,7 +39,7 @@ def play(self):
 **Following is what you need for this book:**
 If you are a Scala developer, data scientist, or data analyst who wants to learn how to use Spark for implementing efficient deep learning models, Hands-On Deep Learning with Apache Spark is for you. Knowledge of the core machine learning concepts and some exposure to Spark will be helpful.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
 ### Software and Hardware List
 | Chapter  | Software required                 | OS required                         |
 | -------- | ----------------------------------| ----------------------------------- |
