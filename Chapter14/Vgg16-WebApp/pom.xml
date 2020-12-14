@@ -5,7 +5,7 @@
   <version>1.0</version>
   
   <properties>
-  	<sparkjava.version>2.5</sparkjava.version>
+  	<sparkjava.version>2.7.2</sparkjava.version>
   	<dl4j.version>1.0.0-alpha</dl4j.version>
   	<jetty.version>9.4.8.v20171121</jetty.version>
   </properties>
